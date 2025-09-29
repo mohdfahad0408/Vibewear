@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: #0f1111;
+    color: white;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.head{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 25px;
+}
+
+.head span{
+    padding-left: 7px;
+}
+
+.bi{
+    height: 16px;
+}
+
+article img{
+    height: 644px;
+    
+}
+
+.cbox{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+
+article{
+    display: flex;
+}
+
+.details{
+    padding: 0 48px;
+}
+
+.light{
+    color: #727483;
+    margin-bottom:20px ;
+}
+
+.size{
+    color: #727483;
+    margin: 0 8px 8px 0;
+    padding: 0 16px;
+}
+.name{
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+
+.price{
+    font-weight:bold ;
+    
+}
+
+.color{
+    margin: 20px 0 8px;
+}
+
+.size-fit{
+    background-color: #e6e7e780;
+    text-align: center;
+    font-weight: bold;
+    margin: 16px 0;
+    padding: 4px 0;
+}
+
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:60px;
+    width:515px;
+    margin: 0 0 8px;
+    padding: 0 16px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buy{
+    background-color: black;
+    color: white;
+    
+}
+
+.photo img{
+    height: 65px;
+    width: 55px;
+}
+
+.photo{
+    margin-top: 25px;
+    display: flex;
+    width:350px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px 0;
+}
+
+.f-heading ~ span{
+    display: block;
+    margin-top: 5px;
+    font-size: 10px;
+    color: grey;
+    }
+
+.bi1{
+    padding-right: 5px;
+    font-size: medium;
+}
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}    
+
+.model-text{
+    text-align: end;
+    margin-top: 5px;
+}
+
+.button:hover{
+    font-size: 25px;
+    height:70px;
+    width:530px;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
